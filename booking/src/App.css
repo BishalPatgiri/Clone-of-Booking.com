@@ -1,0 +1,63 @@
+.Box {
+  width: 100%;
+  
+}
+.navbarHeading{
+  font-size:xx-large;
+}
+.navbarHeading4{
+  width: auto;
+  font-size: large;
+}
+@media screen and (max-width:800px){
+  .navbarHeading{
+    font-size:large;
+  }
+  .navbarHeading2{
+    visibility: hidden;
+    position: absolute;
+  }
+  .navbarHeading3{
+    font-size:small;
+    width: auto;
+    
+  }
+  .navbarHeading4{
+    width: 1px;
+    font-size: x-small;
+    justify-content:safe;
+  }
+}
+@media screen and (max-width:505px) {
+  .navbarHeading{
+    font-size:medium;
+  }
+  .navbarHeading3{
+    font-size: smaller;
+    width: auto;
+  }
+  .navbarHeading4{
+    width:1px;
+    font-size:xx-small;
+    justify-content:safe;
+  }
+}
+
+.Image:hover{
+  transition-duration: 2s;
+  transform:rotate(1080deg);
+  }
+@media screen and (min-width: 30em) {
+  .navbar {
+    width: 50%;
+    height: 10%;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .navbar {
+    width: 25%;
+    height: 10%;
+  }
+}
+
