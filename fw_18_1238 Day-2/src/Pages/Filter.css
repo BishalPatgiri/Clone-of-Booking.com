@@ -1,0 +1,84 @@
+.box1 {
+  width: 100%;
+  padding-left: 10%;
+  height: 380px;
+  background: whitesmoke;
+}
+.box2 {
+  width: 100%;
+  padding-left: 10%;
+  height: 1000px;
+  background: white;
+}
+.box3 {
+  width: 100%;
+  padding-left: 10%;
+  height: 210px;
+  background: whitesmoke;
+  border: 1px solid blue;
+  display: flex;
+}
+.b1 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 27%;
+  display: flex;
+}
+.b2 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+.b3 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+.corona {
+  width: 75%;
+  /* margin: auto; */
+  background-color: #fff0e0;
+  border: 1px solid #ff8000;
+  padding: 20px;
+  color: #262626;
+  border-radius: 3px;
+}
+/* .h1 {
+  font-size: 25pt;
+} */
+p {
+  margin: 0px;
+  margin-top: -20px;
+}
+.dom {
+  height: 40px;
+  /* padding: 10px 10px 10px 10px; */
+  width: 110px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: white;
+  /* border-bottom: none; */
+  border-bottom-color: white;
+}
+.dom:hover {
+  background-color: rgb(218, 213, 213);
+  cursor: pointer;
+}
+.dom:focus {
+  border-bottom-color: blue;
+  color: blue;
+}
+.topFlights {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 270px;
+  display: flex;
+  gap: 13px;
+}
+.icon {
+  margin-top: 90px;
+  margin-left: 25px;
+}
