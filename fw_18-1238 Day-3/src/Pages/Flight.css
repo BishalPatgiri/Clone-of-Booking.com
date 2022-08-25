@@ -1,0 +1,142 @@
+.box1 {
+  width: 100%;
+  padding-left: 10%;
+  height: 380px;
+  background: whitesmoke;
+}
+.box2 {
+  width: 100%;
+  padding-left: 10%;
+  height: 1000px;
+  background: white;
+}
+.box3 {
+  width: 100%;
+  padding-left: 10%;
+  height: 210px;
+  background: whitesmoke;
+
+  display: flex;
+}
+.box4 {
+  width: 100%;
+  padding-left: 10%;
+  height: 1000px;
+  background: white;
+  border: 1px solid blue;
+}
+.b1 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 27%;
+  display: flex;
+}
+.b2 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+.b3 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+.corona {
+  width: 75%;
+  /* margin: auto; */
+  background-color: #fff0e0;
+  border: 1px solid #ff8000;
+  padding: 20px;
+  color: #262626;
+  border-radius: 3px;
+}
+/* .h1 {
+  font-size: 25pt;
+} */
+p {
+  margin: 0px;
+  margin-top: -20px;
+}
+.dom {
+  height: 40px;
+  /* padding: 10px 10px 10px 10px; */
+  width: 110px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: white;
+  border-width: thin;
+  /* border-bottom: none; */
+  border-bottom-color: white;
+}
+.dom:hover {
+  background-color: rgb(218, 213, 213);
+  cursor: pointer;
+}
+.dom:focus {
+  border-bottom-color: blue;
+  border-width: normal;
+  color: blue;
+}
+.dom1 {
+  height: 35px;
+  /* padding: 10px 10px 10px 10px; */
+  width: 97px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: white;
+  /* border-bottom: none; */
+  border-bottom-color: rgb(238, 236, 236);
+  border-width: thin;
+}
+.dom1:hover {
+  background-color: rgb(218, 213, 213);
+  cursor: pointer;
+}
+.dom1:focus {
+  border-bottom-color: blue;
+  color: blue;
+}
+.topFlights {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 270px;
+  display: flex;
+  gap: 13px;
+}
+.flyWorldwide {
+  border: 1px solid rgb(185, 183, 183);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  height: auto;
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+.test {
+  width: 340px;
+  height: 80px;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+  display: flex;
+}
+.icon {
+  margin-top: 90px;
+  margin-left: 25px;
+}
+.faq {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: auto;
+  display: grid;
+  row-gap: 15px;
+  column-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
