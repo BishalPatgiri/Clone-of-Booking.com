@@ -5,15 +5,15 @@ import { useSelector,useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router'
 import { getData } from './Redux/action'
 
-export const ExploreGoa = () => {
+export const ExploreMumbai = () => {
     const dispatch=useDispatch()
     const data=useSelector(pre=>pre.hotel)
-    const [destination,setDestination]=useState("Goa")
+    const [destination,setDestination]=useState("Mumbai")
     const navigate=useNavigate()
 
     useEffect(()=>{
-       // if(data.length===0)
-        dispatch(getData("goa"))
+        // if(data.length===0)
+        dispatch(getData("mumbai"))
     },[dispatch])
 
     // console.log(data)
@@ -22,7 +22,7 @@ export const ExploreGoa = () => {
         const params={
             rating_gte:e.target.value,
         }
-        dispatch(getData("goa",params))
+        dispatch(getData("mumbai",params))
 
     }
     const handleReview=(e)=>{
@@ -30,7 +30,7 @@ export const ExploreGoa = () => {
         const params={
             review_gte:e.target.value,
         }
-        dispatch(getData("goa",params))
+        dispatch(getData("mumbai",params))
 
     }
 
@@ -38,13 +38,13 @@ export const ExploreGoa = () => {
         const params={
             location:e.target.value,
         }
-        dispatch(getData("goa",params))
+        dispatch(getData("mumbai",params))
     }
 
     const handlePageChange=()=>{
-        if(destination==="mumbai")
+        if(destination==="goa")
         {
-            navigate("/mumbai")
+            navigate("/goa")
         }
     }
 
@@ -55,7 +55,7 @@ export const ExploreGoa = () => {
                 _sort:"rating",
                 _order:"DESC"
             }
-            dispatch(getData("goa",params))
+            dispatch(getData("mumbai",params))
         }
         else if(e.target.value==="rating_inc")
         {
@@ -63,7 +63,7 @@ export const ExploreGoa = () => {
                 _sort:"rating",
                 _order:"ASC"
             }
-            dispatch(getData("goa",params))
+            dispatch(getData("mumbai",params))
         }
         else if(e.target.value==="review")
         {
@@ -71,14 +71,14 @@ export const ExploreGoa = () => {
                 _sort:"review",
                 _order:"DESC"
             }
-            dispatch(getData("goa",params))
+            dispatch(getData("mumbai",params))
         }
 
     }
   return (
     <div style={{width:"75%",display:"flex",justifyContent:"space-between",margin:"auto",fontFamily:"BlinkMacSystemFont",gap:"10px"}}>
         <div style={{width:"50%",padding:"5px"}}>
-        <p style={{padding:"10px 0",fontSize:"14px"}}>Home {">"} India {">"} Goa {">"} Searh results</p>
+        <p style={{padding:"10px 0",fontSize:"14px"}}>Home {">"} India {">"} Mumbai {">"} Searh results</p>
             <div id="left" style={{backgroundColor:"#febb02",padding:"20px 10px"}}>
                 <h2 style={{height:"28px0",color:"#333"}}>Search</h2>
                 <div style={{marginTop:"10px"}}>
@@ -160,24 +160,24 @@ export const ExploreGoa = () => {
                 <div>
                     <p style={{fontSize:"17px",fontWeight:"bold"}}>City</p>
                     <div>
-                        <input value={"Candolim"} onClick={handleFilterCity} type="checkbox" />
-                        <label htmlFor="">Candolim</label>
+                        <input value={"South mumbai"} onClick={handleFilterCity} type="checkbox" />
+                        <label htmlFor="">South Mumbai</label>
                     </div>
                     <div>
-                        <input value={"Anjuna"} onClick={handleFilterCity} type="checkbox" />
-                        <label htmlFor="">Anjuna</label>
+                        <input value={"Western Suburbs"} onClick={handleFilterCity} type="checkbox" />
+                        <label htmlFor="">Western Suburbs</label>
                     </div>
                     <div>
-                        <input value={"Siolim"} onClick={handleFilterCity} type="checkbox" />
-                        <label htmlFor="">Siolim</label>
+                        <input value={"Khar"} onClick={handleFilterCity} type="checkbox" />
+                        <label htmlFor="">Khar</label>
                     </div>
                     <div>
-                        <input value={"Goa Velha"} onClick={handleFilterCity} type="checkbox" />
-                        <label htmlFor="">Goa Velha</label>
+                        <input value={"Santacruz"} onClick={handleFilterCity} type="checkbox" />
+                        <label htmlFor="">Santacruz</label>
                     </div>
                     <div>
-                        <input value={"Assagao"} onClick={handleFilterCity} type="checkbox" />
-                        <label htmlFor="">Assagao</label>
+                        <input value={"Bandra"} onClick={handleFilterCity} type="checkbox" />
+                        <label htmlFor="">Bandra</label>
                     </div>
                 </div>  
             </div>
@@ -185,7 +185,7 @@ export const ExploreGoa = () => {
         <div>
             
         <div style={{padding:"15px"}} id='container'>
-            <h2>Goa 1,800 properties found</h2>
+            <h2>Mumbai 701 properties found</h2>
             <select onChange={handleSort} style={{border:"1px solid #0071C2",color:"#0071C2",width:"21%",padding:"10px",borderRadius:"20px",margin:"20px 0px 15px 0px"}} name="" id="">
                 <option style={{marginTop:"10px",padding:"10px"}} value="rating_desc">Rating(heighest first) </option>
                 <option style={{marginTop:"10px",padding:"10px"}} value="rating_inc">Rating(lowest first) </option>

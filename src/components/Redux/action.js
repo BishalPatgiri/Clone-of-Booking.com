@@ -14,7 +14,7 @@ export const getStayFailure=()=>{
     return {type:types.GET_STAY_FAILURE}
 }
 
-export const getData=(city)=>(dispatch)=>{
+export const getData=(city,params)=>(dispatch)=>{
     dispatch(getStayRequest())
-    return axios.get(`http://localhost:8080/${city}`).then(res=>dispatch(getStaySuccess(res.data))).catch(e=>dispatch(getStayFailure()))
+    return axios.get(`http://localhost:8080/${city}`,{params}).then(res=>dispatch(getStaySuccess(res.data))).catch(e=>dispatch(getStayFailure()))
 }

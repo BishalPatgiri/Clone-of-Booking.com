@@ -8,6 +8,7 @@ export const Homepage = () => {
         Welcome to Home Page
         </h1>
         <Link className='link' to="/goa">Goa</Link>
+        <Link className='link' to="/mumbai">Mumbai</Link>
     </div>
   )
 }

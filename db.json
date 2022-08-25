@@ -103,7 +103,7 @@
 "mumbai":[{
   "id":1,
   "title":"Fairfield by Marriott Mumbai International AirportOpens in new window",
-  "location":"Mumbai",
+  "location":"South mumbai",
   "description":"Set in Mumbai, 1.8 km from Phoenix Market City Mall, Fairfield by Marriott Mumbai International Airport offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a...",
   "rating":8.2,
   "review":13,
@@ -113,7 +113,7 @@
 {
   "id":2,
   "title":"The Taj Mahal Tower MumbaiOpens in new window",
-  "location":"Mumbai",
+  "location":"South mumbai",
   "description":"Located in Anjuna, a few steps from Anjuna Beach, Curlies Zulu Land cottages - Curlies beach shack and shiva valley - Anjuna beach provides accommodation with a restaurant, free private parking, a...",
   "rating":8.9,
   "review":3744,
@@ -123,7 +123,7 @@
 {
   "id":3,
   "title":"Trident Nariman PointOpens in new window",
-  "location":"South Mumbai",
+  "location":"South mumbai",
   "description":"The 5-star Trident Nariman Point is located in Mumbai, overlooking the beautiful Arabian Sea from Marine Drive.",
   "rating":8.9,
   "review":3599,
@@ -133,7 +133,7 @@
 {
   "id":4,
   "title":"JW Marriott Mumbai Sahar AirportOpens in new window",
-  "location":"Western Suburbs, Mumbai",
+  "location":"Western Suburbs",
   "description":"Located 400 metres from Chhatrapati Shivaji International Airport Mumbai and offering an outdoor swimming pool, fitness centre and a spa wellness centre, JW Marriott Mumbai Sahar is located in Andheri...",
   "rating":8.6,
   "review":1580,
@@ -143,7 +143,7 @@
 {
   "id":5,
   "title":"Radisson Blu Mumbai International Airport",
-  "location":"Western Suburbs, Mumbai",
+  "location":"Western Suburbs",
   "description":"Located in Mumbai, 2.6 km from Phoenix Market City Mall, Radisson Blu Mumbai International Airport provides accommodation with a restaurant, free private parking, an outdoor swimming pool and a...",
   "rating":8.2,
   "review":1011,
@@ -153,7 +153,7 @@
 {
   "id":6,
   "title":"Ramee TechomeOpens in new window",
-  "location":"Khar, Mumbai",
+  "location":"Khar",
   "description":"Boasting a swimming pool, a fitness centre, a shared lounge and views of the city, Ramee Techome is situated in Mumbai and features accommodation with free WiFi.",
   "rating":7.6,
   "review":210,
@@ -163,7 +163,7 @@
 {
   "id":7,
   "title":"ITC Grand Central, a Luxury Collection Hotel, MumbaiOpens in new window",
-  "location":"South Mumbai",
+  "location":"South mumbai",
   "description":"Located in Parel Mumbai, a Grandeur, 5-star ITC Grand Central, A Luxury Collection Hotel in Mumbai features exquisite rooms and suites with city views.",
   "rating":8.6,
   "review":1476,
@@ -173,7 +173,7 @@
 {
   "id":8,
   "title":"Grand Hyatt Mumbai Hotel and Residences",
-  "location":"Santacruz, Mumbai",
+  "location":"Santacruz",
   "description":"Nestled amidst 10 acres of sprawling greenery, Grand Hyatt Mumbai is situated in the heart of the city.",
   "rating":8.4,
   "review":1948,
@@ -183,7 +183,7 @@
 {
   "id":9,
   "title":"Taj Lands EndOpens in new window",
-  "location":"Bandra Mumbai",
+  "location":"Bandra",
   "description":"With a view overlooking the Arabian Sea and the Bandra Worli Sea Link, and located just 200 metres from the seafront, Taj Lands End features award-winning traditional Indian spa treatments, an outdoor...",
   "rating":8.6,
   "review":3047,
@@ -193,7 +193,7 @@
 {
   "id":10,
   "title":"Residency Hotel FortOpens in new window",
-  "location":"South Mumbai",
+  "location":"South mumbai",
   "description":"Located in the heart of Mumbai, Residency Hotel Fort is 100 metres from the UNESCO World Heritage Site of Chhatrapati Shivaji Terminus. It features rooms with a flat-screen TV and 24-hour room...",
   "rating":8.5,
   "review":1046,

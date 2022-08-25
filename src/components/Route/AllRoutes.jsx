@@ -10,6 +10,8 @@ export const AllRotes= () => {
         <Routes>
           <Route path='/' element={<Homepage/>}></Route>
             <Route path='/goa' element={<ExploreGoa/>}></Route>
+            <Route path='/mumbai' element={<ExploreMumbai/>}></Route>
+            <Route path='/register' element={<ExploreMumbai/>}></Route>
         </Routes>
     </div>
   )
