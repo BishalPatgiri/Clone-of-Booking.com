@@ -9,6 +9,7 @@ import Home from '../Pages/Home'
 import Register from '../Pages/Register'
 import SignIn from '../Pages/SignIn'
 import Stays from '../Pages/Stays'
+import PinMain from '../Pin/PinMain'
 
 
 function MainRoutes (){
@@ -23,6 +24,7 @@ function MainRoutes (){
         <Route path="/airportTaxis" element={<Airport />} />
         <Route path='/signIn' element={<SignIn />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/pin' element={<PinMain />} />
         <Route path='*'  element={<img src="https://cdn.dribbble.com/users/1190086/screenshots/7780963/media/02564c983af71888c5ba1091cb136101.gif" alt='Error 404' width="100%" height="60%"/>} />
     </Routes>
   )
