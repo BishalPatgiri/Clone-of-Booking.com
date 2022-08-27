@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#left input{
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    border: 0px;
+}
+#left .checkbox{
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+#filter>div{
+    margin-top: 10px;
+    border-bottom: 1px solid #888;
+    padding: 10px;
+    line-height: 25px;
+}
+#filter>div input{
+    margin-right: 5px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }

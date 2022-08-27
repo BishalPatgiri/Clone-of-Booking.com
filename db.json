@@ -1,0 +1,204 @@
+{
+  "goa":[{
+    "id":1,
+    "title":"JM Vista Suites",
+    "location":"Siolim",
+    "description":"JM Vista Suites features free WiFi and views of mountain. All rooms boast a flat-screen TV with satellite channels and a private bathroom. Staff on site can arrange airport transfers.",
+    "rating":9.0,
+    "review":22,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/180182886.webp?k=dbb899cc779c91c18f0fd5b8bd18059286eba7e63a00c78d5f418904546c3096&o=&s=1"
+  },
+  {
+    "id":2,
+    "title":"Curlies Zulu Land cottages - Curlies beach shack and shiva valley - Anjuna beachOpens in new window",
+    "location":"Anjuna",
+    "description":"Located in Anjuna, a few steps from Anjuna Beach, Curlies Zulu Land cottages - Curlies beach shack and shiva valley - Anjuna beach provides accommodation with a restaurant, free private parking, a...",
+    "rating":7.9,
+    "review":1077,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/227222651.webp?k=023401af568296a27b90896aa3591b48ac7f6ec4709cee078d473ec334ab2474&o=&s=1"
+  },
+  {
+    "id":3,
+    "title":"Siolim Holiday ApartmentsOpens in new window",
+    "location":"Siolim",
+    "description":"Located just 4 km from the Morjim Beach and Vagator, Siolim Holiday Apartments is a self-catering accommodation located in Siolim. Free WiFi access is available.",
+    "rating":9.1,
+    "review":153,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/172337136.webp?k=f6aa6b37f8ff6b22f52e54fb6447dfb266c216c528056755f7055160ad5c1646&o=&s=1"
+  },
+  {
+    "id":4,
+    "title":"The Foothills - A Boutique HotelOpens in new window",
+    "location":"Siolim",
+    "description":"Set in Siolim, 2.6 km from Chapora River, The Foothills - A Boutique Hotel offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a bar.",
+    "rating":8.8,
+    "review":39,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/338004770.webp?k=1f7142437cbc075313c5f258137625c683c5cc5d4432f44348dc1c5c1ccf748d&o=&s=1"
+  },
+  {
+    "id":5,
+    "title":"Opens in new window TATA Rio De Goa - Resort style apt,6 KM from AirportOpens in new window",
+    "location":"Chikalim",
+    "description":"Set in Chicalim, TATA Rio De Goa - Resort style apt,6 KM from Airport offers accommodation with free WiFi, air conditioning, a restaurant and access to a garden with a year-round outdoor pool.",
+    "rating":8.6,
+    "review":14,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/322875748.webp?k=a6b8d5e8c6f243d2799c32233d2ebbd373178e7eec80d294143dcfda53e5b085&o=&s=1"
+  },
+  {
+    "id":6,
+    "title":"Casa AluizioOpens in new window",
+    "location":"Assagao",
+    "description":"Casa Aluizio is located 500 metres from the Assagao Bus Station and 5 km from the beautiful beaches of Anjuna and Baga. Free WiFi access is available in the public areas of the property.",
+    "rating":8.4,
+    "review":18,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/338105513.webp?k=81aefd4309cd982e497f642f85b4a2dc63e6b2a2ec6db137f201518a65677ce6&o=&s=1"
+  },
+  {
+    "id":7,
+    "title":"juSTa Morjim Beach Resort Goa - 80 Steps from Morjim BeachOpens in new window",
+    "location":"Goa Velha",
+    "description":"Situated in Goa Velha, a few steps from Morjim Beach, juSTa Morjim Beach Resort Goa - 80 Steps from Morjim Beach features accommodation with a restaurant, free private parking, free bikes and an...",
+    "rating":8.5,
+    "review":11,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/344873944.webp?k=6723632352d963f648aca7e5659ebe934bded1815bdbf4a33e52c59b2f2ae1fb&o=&s=1"
+  },
+  {
+    "id":8,
+    "title":"Candolim Glitter SandOpens in new window CandolimShow on map",
+    "location":"Candolim",
+    "description":"Located in Candolim, 500 metres from Candolim Beach, Candolim Glitter Sand provides accommodation with a garden, free private parking, a casino and a terrace.",
+    "rating":7.9,
+    "review":122,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/340360623.webp?k=16ae6132c6b4571b8d31058e3868fa7a1f910b928e4388488c5f1d248dcc816c&o=&s=1"
+  },
+  {
+    "id":9,
+    "title":"Resort The Lohias, Goa CandolimOpens in new window",
+    "location":"Candolim",
+    "description":"Situated in Candolim, 550 metres from Candolim Beach, Resort The Lohias, Goa Candolim features views of the garden.",
+    "rating":7.7,
+    "review":290,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/243717914.webp?k=d0fd7ab08a979a006b154557bb28c67a3fed2e77bd31f567154e6d008c793630&o=&s=1"
+  },
+  {
+    "id":10,
+    "title":"De Amour - A Dreamy GetawayOpens in new window",
+    "location":"Anjuna",
+    "description":"Located in Anjuna, 1.2 km from Anjuna Beach, De Amour - A Dreamy Getaway provides accommodation with an outdoor swimming pool, free private parking, a bar and a garden.",
+    "rating":6.5,
+    "review":29,
+    "image":
+      "https://t-cf.bstatic.com/xdata/images/hotel/square600/338004064.webp?k=07e75bf55e6aa663b25bec39abefe4a753c031edd09cf256842e29452f6371a8&o=&s=1"
+  }
+] ,
+"mumbai":[{
+  "id":1,
+  "title":"Fairfield by Marriott Mumbai International AirportOpens in new window",
+  "location":"South mumbai",
+  "description":"Set in Mumbai, 1.8 km from Phoenix Market City Mall, Fairfield by Marriott Mumbai International Airport offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a...",
+  "rating":8.2,
+  "review":13,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/379919637.webp?k=90cf4f49f0f60c08ae2101facd5d4bdb579991a2f0021dde249368ed8f6015a6&o=&s=1"
+},
+{
+  "id":2,
+  "title":"The Taj Mahal Tower MumbaiOpens in new window",
+  "location":"South mumbai",
+  "description":"Located in Anjuna, a few steps from Anjuna Beach, Curlies Zulu Land cottages - Curlies beach shack and shiva valley - Anjuna beach provides accommodation with a restaurant, free private parking, a...",
+  "rating":8.9,
+  "review":3744,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/31204963.webp?k=c8db4261fa2358dfcbee9153cafd507fce7adff8d9becd9b80576358034e0591&o=&s=1"
+},
+{
+  "id":3,
+  "title":"Trident Nariman PointOpens in new window",
+  "location":"South mumbai",
+  "description":"The 5-star Trident Nariman Point is located in Mumbai, overlooking the beautiful Arabian Sea from Marine Drive.",
+  "rating":8.9,
+  "review":3599,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/32810813.webp?k=76409719d735f34f0bdb0f418b00e8d7f8cff5995f6af406b75fbfdda2298cb4&o=&s=1"
+},
+{
+  "id":4,
+  "title":"JW Marriott Mumbai Sahar AirportOpens in new window",
+  "location":"Western Suburbs",
+  "description":"Located 400 metres from Chhatrapati Shivaji International Airport Mumbai and offering an outdoor swimming pool, fitness centre and a spa wellness centre, JW Marriott Mumbai Sahar is located in Andheri...",
+  "rating":8.6,
+  "review":1580,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/61178298.webp?k=74d5667b03df7d30c26272e9ef6639468d91f1c98d508ae8ba8fa20b179f7542&o=&s=1"
+},
+{
+  "id":5,
+  "title":"Radisson Blu Mumbai International Airport",
+  "location":"Western Suburbs",
+  "description":"Located in Mumbai, 2.6 km from Phoenix Market City Mall, Radisson Blu Mumbai International Airport provides accommodation with a restaurant, free private parking, an outdoor swimming pool and a...",
+  "rating":8.2,
+  "review":1011,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/331987485.webp?k=5593a5233433a246e2c992b3a5aaf2d21ad9f56322cb03a97d3a4131ab8b8e20&o=&s=1"
+},
+{
+  "id":6,
+  "title":"Ramee TechomeOpens in new window",
+  "location":"Khar",
+  "description":"Boasting a swimming pool, a fitness centre, a shared lounge and views of the city, Ramee Techome is situated in Mumbai and features accommodation with free WiFi.",
+  "rating":7.6,
+  "review":210,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/169755493.webp?k=cf444a11bead3f29969480e6008ea32372c5e8247ea7a4686614c3e264d636db&o=&s=1"
+},
+{
+  "id":7,
+  "title":"ITC Grand Central, a Luxury Collection Hotel, MumbaiOpens in new window",
+  "location":"South mumbai",
+  "description":"Located in Parel Mumbai, a Grandeur, 5-star ITC Grand Central, A Luxury Collection Hotel in Mumbai features exquisite rooms and suites with city views.",
+  "rating":8.6,
+  "review":1476,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/44182780.webp?k=3e296765ba9f3bac54a4baa8229026727d6f6a23c4b5e1817e007163cfd2672d&o=&s=1"
+},
+{
+  "id":8,
+  "title":"Grand Hyatt Mumbai Hotel and Residences",
+  "location":"Santacruz",
+  "description":"Nestled amidst 10 acres of sprawling greenery, Grand Hyatt Mumbai is situated in the heart of the city.",
+  "rating":8.4,
+  "review":1948,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/373741592.webp?k=33a46f17148ed06781828e5892e755a8b5f6598ba74b70f7e9cf0153179355e6&o=&s=1"
+},
+{
+  "id":9,
+  "title":"Taj Lands EndOpens in new window",
+  "location":"Bandra",
+  "description":"With a view overlooking the Arabian Sea and the Bandra Worli Sea Link, and located just 200 metres from the seafront, Taj Lands End features award-winning traditional Indian spa treatments, an outdoor...",
+  "rating":8.6,
+  "review":3047,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/13800549.webp?k=2c758237cb0add8e96b8a2945e6e0e2cbbffa43c3b41c48150f4f94a049a18f2&o=&s=1"
+},
+{
+  "id":10,
+  "title":"Residency Hotel FortOpens in new window",
+  "location":"South mumbai",
+  "description":"Located in the heart of Mumbai, Residency Hotel Fort is 100 metres from the UNESCO World Heritage Site of Chhatrapati Shivaji Terminus. It features rooms with a flat-screen TV and 24-hour room...",
+  "rating":8.5,
+  "review":1046,
+  "image":
+    "https://t-cf.bstatic.com/xdata/images/hotel/square600/66643160.webp?k=75bb260c307036cb916beb9460622599f3f9117f67f1066646c627d669adf86e&o=&s=1"
+}
+]
+}
