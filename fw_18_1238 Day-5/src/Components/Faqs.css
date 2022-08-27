@@ -1,0 +1,9 @@
+.faq_des {
+  width: 320px;
+  height: 180px;
+  border: 1px solid rgb(202, 200, 200);
+  /* margin-bottom: 10px; */
+  margin: auto;
+  padding: 12px;
+  border-radius: 5px;
+}
