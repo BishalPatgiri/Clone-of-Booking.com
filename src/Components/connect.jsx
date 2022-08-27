@@ -28,6 +28,7 @@ export const Connect =()=>{
                 <Text>9,894.940 travellers</Text>
             </Box>
             
+            
          </Box>
         </Box>
         </>
