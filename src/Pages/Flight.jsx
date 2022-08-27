@@ -23,7 +23,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Worldwide from "../Components/Worldwide";
 import Faqs from "../Components/Faqs";
 import Navbar from "../Components/Navbar/Navbar";
-import FooterEveryPage from "../Components/Footer";
+import FooterEveryPage from "../Components/Footer/FooterEveryPage";
 const Flight = () => {
   const [da, setDa] = useState(PopularFlights);
   const [data, setData] = useState(Europe);

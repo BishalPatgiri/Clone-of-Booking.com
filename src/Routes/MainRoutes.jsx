@@ -14,6 +14,7 @@ import SignIn from '../Pages/SignIn'
 import Stays from '../Pages/Stays'
 import PinMain from '../Pin/PinMain'
 import InternationalFlights from "../Pages/InternationalFlights"
+import FlightBooking from "../Pages/FlightBooking"
 
 
 function MainRoutes (){
@@ -22,6 +23,7 @@ function MainRoutes (){
         <Route path="/" element={<Home />} />
         <Route path="/stays" element={<Stays />} />
         <Route path="/flights" element={<Flight />} />
+        <Route path="/flights/booking/" element={<FlightBooking />} />
         <Route path="/flightsHotels" element={<FlightHotel />} />
         <Route path="/carRentals" element={< CarRentals/>} />
         <Route path="/attractions" element={<Attractions />} />

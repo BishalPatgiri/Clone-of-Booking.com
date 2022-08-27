@@ -5,9 +5,9 @@ import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/Navbar/Navbar";
 import SearchBar from "../Components/SearchBar";
-import FooterEveryPage from "../Components/Footer";
+import FooterEveryPage from "../Components/Footer/FooterEveryPage";
 
 const FlightBooking = () => {
   const [flightData, setFlightData] = useState([]);
@@ -41,7 +41,7 @@ const FlightBooking = () => {
     setSearchParams({
       Airliness: company,
     });
-  }, [company, sort]);
+  }, [company, sort,setSearchParams]);
 
   return (
     <div>
@@ -120,7 +120,7 @@ const FlightBooking = () => {
         <div className="ticket">
           {loading && (
             <div style={{ marginLeft: "205px" }}>
-              <img src="https://c.tenor.com/qsdblRVNZysAAAAC/flying-airplane.gif" />
+              <img src="https://c.tenor.com/qsdblRVNZysAAAAC/flying-airplane.gif" alt="i"/>
             </div>
           )}
           {flightData.map((ele) => (

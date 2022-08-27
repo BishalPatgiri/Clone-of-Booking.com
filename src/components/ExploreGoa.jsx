@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router'
+import FooterEveryPage from './Footer/FooterEveryPage'
+import Navbar from './Navbar/Navbar'
 import { getData } from './Redux/action'
 
 export const ExploreGoa = () => {
@@ -76,6 +78,8 @@ export const ExploreGoa = () => {
 
     }
   return (
+    <div>
+    <Navbar/>
     <div style={{width:"75%",display:"flex",justifyContent:"space-between",margin:"auto",fontFamily:"BlinkMacSystemFont",gap:"10px"}}>
         <div style={{width:"50%",padding:"5px"}}>
         <p style={{padding:"10px 0",fontSize:"14px"}}>Home {">"} India {">"} Goa {">"} Searh results</p>
@@ -236,6 +240,8 @@ export const ExploreGoa = () => {
                 </div>
         </div>
         
+    </div>
+    <FooterEveryPage/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import Navbar from "../Components/Navbar/Navbar";
 import SearchBar from "../Components/SearchBar";
-import FooterEveryPage from "../Components/Footer";
+import FooterEveryPage from "../Components/Footer/FooterEveryPage";
 import InternationalFlightsDetails from "../Components/InternationalFlightsDetails";
 
 const InternationalFlights = () => {
