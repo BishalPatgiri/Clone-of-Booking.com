@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Box {
+  width: 100%;
+  
+}
+.navbarHeading{
+  font-size:xx-large;
+}
+.navbarHeading4{
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media screen and (max-width:800px){
+  .navbarHeading{
+    font-size:large;
+  }
+  .navbarHeading2{
+    visibility: hidden;
+    position: absolute;
+  }
+  .navbarHeading3{
+    font-size:small;
+    width: auto;
+    
+  }
+  .navbarHeading4{
+    width: 1px;
+    font-size: x-small;
+    justify-content:safe;
+  }
+}
+@media screen and (max-width:505px) {
+  .navbarHeading{
+    font-size:medium;
+  }
+  .navbarHeading3{
+    font-size: smaller;
+    width: auto;
+  }
+  .navbarHeading4{
+    width:1px;
+    font-size:xx-small;
+    justify-content:safe;
+  }
+}
+
+.Image:hover{
+  transition-duration: 2s;
+  transform:rotate(1080deg);
+  }
+@media screen and (min-width: 30em) {
+  .navbar {
+    width: 50%;
+    height: 10%;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .navbar {
+    width: 25%;
+    height: 10%;
+  }
+}
+
+#left input{
+  background-color: white;
+  height: 35px;
+  width: 100%;
+  border: 0px;
+}
+#left .checkbox{
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+}
+#filter>div{
+  margin-top: 10px;
+  border-bottom: 1px solid #888;
+  padding: 10px;
+  line-height: 25px;
+}
+#filter>div input{
+  margin-right: 5px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}

@@ -16,5 +16,6 @@ export const getStayFailure=()=>{
 
 export const getData=(city,params)=>(dispatch)=>{
     dispatch(getStayRequest())
-    return axios.get(`http://localhost:8080/${city}`,{params}).then(res=>dispatch(getStaySuccess(res.data))).catch(e=>dispatch(getStayFailure()))
+    return axios.get(`https://c5-project-data.herokuapp.com/${city}`,{params}).then(res=>dispatch(getStaySuccess(res.data))).catch(e=>dispatch(getStayFailure()))
 }
+// https://c5-project-data.herokuapp.com/goa

@@ -44,7 +44,7 @@ export const ExploreGoa = () => {
     const handlePageChange=()=>{
         if(destination==="mumbai")
         {
-            navigate("/mumbai")
+            navigate("/exploreMumbai")
         }
     }
 
@@ -80,7 +80,7 @@ export const ExploreGoa = () => {
         <div style={{width:"50%",padding:"5px"}}>
         <p style={{padding:"10px 0",fontSize:"14px"}}>Home {">"} India {">"} Goa {">"} Searh results</p>
             <div id="left" style={{backgroundColor:"#febb02",padding:"20px 10px"}}>
-                <h2 style={{height:"28px0",color:"#333"}}>Search</h2>
+                <h2 style={{height:"28px",color:"#333"}}>Search</h2>
                 <div style={{marginTop:"10px"}}>
                     <label style={{fontSize:"15px",marginBottom:"10px",fontFamily:"BlinkMacSystemFont",color:"#333"}}>Destination/Property Name</label>
                     <br />
@@ -185,7 +185,7 @@ export const ExploreGoa = () => {
         <div>
             
         <div style={{padding:"15px"}} id='container'>
-            <h2>Goa 1,800 properties found</h2>
+            <h2 style={{fontSize:"23px",fontWeight:"bold"}}>Goa 1,800 properties found</h2>
             <select onChange={handleSort} style={{border:"1px solid #0071C2",color:"#0071C2",width:"21%",padding:"10px",borderRadius:"20px",margin:"20px 0px 15px 0px"}} name="" id="">
                 <option style={{marginTop:"10px",padding:"10px"}} value="rating_desc">Rating(heighest first) </option>
                 <option style={{marginTop:"10px",padding:"10px"}} value="rating_inc">Rating(lowest first) </option>
@@ -193,14 +193,14 @@ export const ExploreGoa = () => {
             </select>
                     {
                         data.length>0 && data.map(ele=>(
-                            <div key={ele.id} style={{display:"flex",justifyContent:"space-between",gap:"15px",border:"1px solid lightblue",marginBottom:"20px",borderRadius:"7px",padding:"12px",boxShadow: "#49ADFA 0px 1px 4px",backgroundColor:"#E5F0F9",fontFamily:"BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif"}}> 
-                                    <div>
-                                        <img height={"200px"} width={"200px"} src={ele.image} alt="" />
+                            <div key={ele.id} style={{display:"flex",justifyContent:"space-between",gap:"15px",border:"1px solid lightblue",marginBottom:"20px",borderRadius:"7px",padding:"12px",boxShadow: "#49ADFA 0px 1px 4px",backgroundColor:"#E5F0F9",fontFamily:"BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif",height:"250px",width:"100%"}}> 
+                                    <div style={{width:"26%"}} >
+                                        <img style={{height:"100%",width:"100%"}} src={ele.image} alt="" />
                                     </div>
-                                    <div style={{paddingTop:"10px"}}>
-                                        <div style={{display:"flex",flexWrap:"wrap",gap:"15px"}}>
-                                            <h2 style={{fontSize:"20px",color:"#6B6B6B",cursor:"pointer"}}>{ele.title}</h2>
-                                            <div>
+                                    <div style={{paddingTop:"10px",width:"70%"}}>
+                                        <div style={{gap:"15px"}}>
+                                            <h2 style={{display:"inline",lineHeight:"20px",fontSize:"20px",color:"#6B6B6B",cursor:"pointer"}}>{ele.title}</h2>
+                                            <div style={{display:"flex"}}>
                                                 <img height="18px" width="18px" src="https://img.icons8.com/fluency/344/star.png" alt="" />
                                                 <img height="18px" width="18px" src="https://img.icons8.com/fluency/344/star.png" alt="" />
                                                 <img height="18px" width="18px" src="https://img.icons8.com/fluency/344/star.png" alt="" />
@@ -212,12 +212,12 @@ export const ExploreGoa = () => {
                                             <p style={{color:"#0071C2",borderBottom:"1px solid #0071C2",display:'inline',marginRight:"12px"}}>Show on map</p>
                                             <p style={{color:"#0071C2",borderBottom:"1px solid #0071C2",display:'inline',marginRight:"12px"}}>Near beach</p>
                                         </div>
-                                        <p style={{padding:"7px 0"}}>
-                                        <svg height={"16px"} width="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.22 3.37a.75.75 0 0 0-.6-.59c-4.85-.9-10.6.55-13.37 3.36S3.1 14.39 3.88 19.05L2 21a.75.75 0 0 0 0 1 .74.74 0 0 0 .53.22A.71.71 0 0 0 3 22l2-1.9a16.94 16.94 0 0 0 2.76.23c4.09 0 8.19-1.33 10.35-3.52 2.71-2.81 4.07-8.59 3.11-13.44zM17 15.75c-2.11 2.14-6.59 3.36-10.7 3L16.59 8.47a.75.75 0 0 0 0 -1.06.77.77 0 0 0-1.07 0l-10.3 10.3c-.33-3.91.91-8.31 3.1-10.52s7.29-3.63 11.52-3c.67 4.22-.54 9.22-2.84 11.56z"></path></svg>
+                                        <p style={{padding:"7px 0",display:"flex",gap:"5px"}}>
+                                        <svg height={"16px"} width="16px" style={{marginTop:"5px"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.22 3.37a.75.75 0 0 0-.6-.59c-4.85-.9-10.6.55-13.37 3.36S3.1 14.39 3.88 19.05L2 21a.75.75 0 0 0 0 1 .74.74 0 0 0 .53.22A.71.71 0 0 0 3 22l2-1.9a16.94 16.94 0 0 0 2.76.23c4.09 0 8.19-1.33 10.35-3.52 2.71-2.81 4.07-8.59 3.11-13.44zM17 15.75c-2.11 2.14-6.59 3.36-10.7 3L16.59 8.47a.75.75 0 0 0 0 -1.06.77.77 0 0 0-1.07 0l-10.3 10.3c-.33-3.91.91-8.31 3.1-10.52s7.29-3.63 11.52-3c.67 4.22-.54 9.22-2.84 11.56z"></path></svg>
                                             Travel Sustainable property</p>
-                                        <p>{ele.description}</p>
+                                        <p style={{fontSize:"13px"}}>{ele.description}</p>
                                     </div>
-                                    <div style={{width:"50%",paddingTop:"10px"}}>
+                                    <div style={{width:"19%",paddingTop:"10px"}}>
                                         <div style={{display:"flex",justifyContent:"space-between"}}>
                                             <div>
                                                 <h2 style={{fontSize:"16px"}}>Review Score</h2>

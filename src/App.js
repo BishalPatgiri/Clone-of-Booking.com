@@ -1,11 +1,13 @@
-import { AllRotes } from "./components/Route/AllRoutes";
-import "./styles.css";
+import './App.css';
+import MainRoutes from './Routes/MainRoutes';
 
-export default function App() {
+
+function App() {
   return (
     <div className="App">
-      <AllRotes/>
-      
+      <MainRoutes />
     </div>
   );
 }
+
+export default App;

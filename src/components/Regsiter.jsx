@@ -9,7 +9,7 @@ export const Regsiter = () => {
 
     const handleLogin=()=>{
         saveLocalData("email",email)
-        navigate("/createPass")
+        navigate("/createPassword")
     }
     
   return (
@@ -22,7 +22,7 @@ export const Regsiter = () => {
             </div> 
         </div>
         <div style={{width:"24%",margin:"auto",marginTop:"70px"}}>
-            <h2>Sign in or create an account</h2>
+            <h2 style={{fontSize:"25px",fontWeight:"bold"}}>Sign in or create an account</h2>
             <div style={{marginTop:"30px"}}>
                 <label style={{fontWeight:"bold"}} htmlFor="">Email Address</label><br></br>
                 <input value={email} onChange={(e)=>setEmail(e.target.value)} style={{marginTop:"6px",height:"36px",padding:"4px 8px",width:"100%",border:"1px solid #ABAFB2"}} type="email" />

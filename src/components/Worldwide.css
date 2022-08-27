@@ -1,0 +1,7 @@
+.test {
+  width: 340px;
+  height: 80px;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+  display: flex;
+}
