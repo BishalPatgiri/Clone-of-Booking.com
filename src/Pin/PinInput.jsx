@@ -14,7 +14,7 @@ const PinInput = forwardRef(({ singleInputHandler, onBackspaceHandler, isOtpVail
        
     }
   return (
-    <Input h="40px" w="40px" m="1rem 0.5rem" className={isOtpVaild ? 'correctOtp' :"" }  ref={ref} maxLength={1}
+    <Input h="45px" w="45px" m="1rem 0.5rem" className={isOtpVaild ? 'correctOtp' :"" }  ref={ref} maxLength={1}
     onKeyUp={handleKeyUp}
      onChange={(e)=>singleInputHandler(e)}
       />
