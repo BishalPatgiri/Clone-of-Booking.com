@@ -6,7 +6,7 @@ import PinInput from './PinInput';
 const Pin = ({ length, setOtp, isOtpVaild }) => {
     const [inputBoxLength] =useState(new Array(length).fill(1));
     const inputRef = useRef([]);
-    const [inputData] = useState(new Array(length).fill("")); 
+    const [inputData] = useState(new Array(length).fill("")); // ['','','','','']
     const changeHandler = (e,index) => {
         inputData[index] = e.target.value;
         

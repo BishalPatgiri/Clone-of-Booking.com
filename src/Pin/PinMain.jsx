@@ -23,17 +23,14 @@ const PinMain = () => {
     <Box w="100%" h="1200px" textAlign="center" bg="black" color="white">
       <Box w="80%" m="auto">
         <Flex justifyContent="space-between">
-        <Box pt="8rem">
-            <Flex>
-
-            </Flex>
-        <Heading as="h1" size="lg" pb="1.5rem">Enter your opt... </Heading>
+        <Box pt="8rem" w={["30%","40%"]}>
+            <Heading as="h2" size="lg" pb="1.5rem">Enter your opt... </Heading>
             <Pin length={4} setOtp={setOtp} isOtpVaild={auth} />
             <Text>
               The OTP Input is {otp}
             </Text>
           </Box>
-          <Box>
+          <Box w="60%">
             <img
               src="https://i.pinimg.com/originals/b4/d1/33/b4d133975e2545f757338da16220e3db.gif"
               alt="loding"

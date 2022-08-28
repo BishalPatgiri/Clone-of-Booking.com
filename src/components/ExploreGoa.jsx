@@ -77,6 +77,11 @@ export const ExploreGoa = () => {
         }
 
     }
+
+    const handleAlert=()=>{
+        alert("Register First to see Price")
+        navigate("/register")
+    }
   return (
     <div>
     <Navbar/>
@@ -230,7 +235,7 @@ export const ExploreGoa = () => {
                                             <div style={{color:"white",backgroundColor:"#003580",width:"20%",display:"flex",justifyContent:"center",alignItems:"center",padding:"5px",borderTopLeftRadius:"8px",borderBottomRightRadius:"8px"}}>{ele.rating}</div> 
                                         </div>
                                         <div>
-                                            <button style={{float:"right",marginTop:"20px",color:"white",backgroundColor:"#0071C2",padding:"8px 16px",border:"0px",cursor:"pointer"}}>Show prices</button>
+                                            <button onClick={handleAlert} style={{float:"right",marginTop:"20px",color:"white",backgroundColor:"#0071C2",padding:"8px 16px",border:"0px",cursor:"pointer"}}>Show prices</button>
                                         </div>
                                     </div>
                             </div>
