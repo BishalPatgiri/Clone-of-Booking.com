@@ -13,6 +13,8 @@ import "../../App.css"
 import { getLocalData } from "../utils/localStorage";
 const Navbar = () => {
 
+
+  
   const email=getLocalData("emailAfter")
   let firstLetter
   if(email){
