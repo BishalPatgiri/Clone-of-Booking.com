@@ -11,5 +11,5 @@ Booking.com was founded in 1996 by Geert-Jan Bruinsma. He was a student at Unive
 In July 2005, the company was acquired by Priceline Group (now called Booking Holdings) for $133 million, and later it cooperated with ActiveHotels.com, a European online hotel reservation company, purchased by Priceline Group 9 months earlier for $161 million in Sept 2004.
 
 <p align="center">
-  <img src="https://cdn.businesstraveller.com/wp-content/uploads/2021/10/booking.com_.jpeg" width="350" title="hover text">
+  <img src="https://cdn.businesstraveller.com/wp-content/uploads/2021/10/booking.com_.jpeg" width="100%" title="hover text">
 </p>
