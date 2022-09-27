@@ -1,3 +1,5 @@
+# Clone of booking.com website
+
 # Teammates name:
 - Bishal Patgiri
 - Niranjan Kumar
@@ -5,7 +7,7 @@
 - Vishal Mandloi
 
 
-# Booking
+# Booking.com
 - This website was cloned as part of project work of Unit 5 and we are the team of 4 members who have contibuted in this project.
 - Booking.com was founded in 1996 by Geert-Jan Bruinsma. He was a student at Universiteit Twente, where he worked from an office in Enschede on his website Bookings.nl. Booking.com was formed when Bookings.nl, merged in 2000 with Bookings Online, founded by Sicco and Alec Behrens, Marijn Muyser and Bas Lemmens, which operated as Bookings.org. The name and URL were changed to Booking.com and Stef Noorden was appointed as its CEO. In 1997, Bruinsma wanted to post an ad in De Telegraaf, the Dutch newspaper with the highest circulation. The ad was rejected since De Telegraaf only accepted ads with a phone number, not with a website. In 2002, Expedia refused to buy bookings
 
