@@ -1,4 +1,4 @@
-# Clone of booking.com website
+# Clone of booking.com
 
 # Teammates name:
 - Bishal Patgiri
