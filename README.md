@@ -1,10 +1,7 @@
 # Clone of booking.com
-
-# Teammates name:
-- Bishal Patgiri
-- Niranjan Kumar
-- Sumit Upadhyay
-- Vishal Mandloi
+<p align="center">
+  <img src="https://cdn.businesstraveller.com/wp-content/uploads/2021/10/booking.com_.jpeg" width="100%" title="hover text">
+</p>
 
 
 # Booking.com
@@ -13,10 +10,33 @@
 
 - In July 2005, the company was acquired by Priceline Group (now called Booking Holdings) for $133 million, and later it cooperated with ActiveHotels.com, a European online hotel reservation company, purchased by Priceline Group 9 months earlier for $161 million in Sept 2004.
 
+# Teammates name:
+- Bishal Patgiri
+- Niranjan Kumar
+- Sumit Upadhyay
+- Vishal Mandloi
 
-<p align="center">
-  <img src="https://cdn.businesstraveller.com/wp-content/uploads/2021/10/booking.com_.jpeg" width="100%" title="hover text">
-</p>
+## Tech Stack used
+- `REACT`
+- `REDUX`
+- `CHAKRA-UI`
+-  `JAVA SCRIPT`
+-  `HTML`
+-  `CSS`
+-  `JSON SERVER`
+
+## Deployed Link
+https://clever-churros-0ca8ea.netlify.app/
+
+## Pages & Features
+- Home Page(Stays)
+- Flight Page
+- Login-in  and sign-up Page
+- Hotel search 
+- Flight search
+- Listing of various destinations
+- Listing of hotels
+
 
 # Snap shots
 <b> Home Page </b>
@@ -36,24 +56,4 @@
 <b> Flights Booking Page </b>
 
 ![booking2](https://user-images.githubusercontent.com/104014308/188279238-1efb8317-7d59-448b-8d28-201c3421dda9.JPG)
-
-## Deployed Link
-https://clever-churros-0ca8ea.netlify.app/
-
-## Pages & Features
-- Home Page(Stays)
-- Flight Page
-- Login-in  and sign-up Page
-- Hotel search 
-- Flight search
-- Listing of various destinations
-- Listing of hotels
-## Tech Stack
-- `REACT`
-- `REDUX`
-- `CHAKRA-UI`
--  `JAVA SCRIPT`
--  `HTML`
--  `CSS`
--  `JSON SERVER`
 
